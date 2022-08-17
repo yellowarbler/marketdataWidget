@@ -1,100 +1,79 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/" rel="noopener" target="_blank"><span class="blue-text">Stock Quotes</span></a> by TradingView</div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/indices/" rel="noopener" target="_blank"><span class="blue-text">Indices</span></a>, <a href="https://www.tradingview.com/markets/futures/" rel="noopener" target="_blank"><span class="blue-text">Futures</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com/markets/currencies/" rel="noopener" target="_blank"><span class="blue-text">Forex</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
   {
-  "title": "Stocks",
-  "width": 770,
-  "height": 450,
-  "locale": "en",
-  "showSymbolLogo": true,
+  "width": "770",
+  "height": "650",
   "symbolsGroups": [
     {
-      "name": "Financial",
+      "name": "Indices",
+      "originalName": "Indices",
       "symbols": [
         {
-          "name": "NYSE:JPM",
-          "displayName": "Jpmorgan Chase & Co"
+          "name": "FOREXCOM:SPXUSD",
+          "displayName": "S&P 500"
         },
         {
-          "name": "NYSE:WFC",
-          "displayName": "Wells Fargo Co New"
+          "name": "FOREXCOM:NSXUSD",
+          "displayName": "US 100"
         },
         {
-          "name": "NYSE:BAC",
-          "displayName": "Bank Amer Corp"
+          "name": "FOREXCOM:DJI",
+          "displayName": "Dow 30"
         },
         {
-          "name": "NYSE:HSBC",
-          "displayName": "Hsbc Hldgs Plc"
+          "name": "INDEX:NKY",
+          "displayName": "Nikkei 225"
         },
         {
-          "name": "NYSE:C",
-          "displayName": "Citigroup Inc"
+          "name": "INDEX:DEU40",
+          "displayName": "DAX Index"
         },
         {
-          "name": "NYSE:MA",
-          "displayName": "Mastercard Incorporated"
+          "name": "SSE:000300",
+          "displayName": "CSI 300"
         }
       ]
     },
     {
-      "name": "Technology",
+      "name": "Futures",
+      "originalName": "Futures",
       "symbols": [
         {
-          "name": "NASDAQ:AAPL",
-          "displayName": "Apple"
+          "name": "TVC:GOLD",
+          "displayName": "Gold"
         },
         {
-          "name": "NASDAQ:GOOGL",
-          "displayName": "Google Inc"
+          "name": "TVC:USOIL",
+          "displayName": "Crude WTI"
         },
         {
-          "name": "NASDAQ:MSFT",
-          "displayName": "Microsoft Corp"
-        },
-        {
-          "name": "NASDAQ:FB",
-          "displayName": "Meta Platforms, Inc"
-        },
-        {
-          "name": "NYSE:ORCL",
-          "displayName": "Oracle Corp"
-        },
-        {
-          "name": "NASDAQ:INTC",
-          "displayName": "Intel Corp"
+          "name": "CAPITALCOM:NATURALGAS",
+          "displayName": "Nat Gas"
         }
       ]
     },
     {
-      "name": "Services",
+      "name": "Forex",
+      "originalName": "Forex",
       "symbols": [
         {
-          "name": "NASDAQ:AMZN",
-          "displayName": "Amazon Com Inc"
+          "name": "OANDA:EURUSD",
+          "displayName": "EUR"
         },
         {
-          "name": "NYSE:BABA",
-          "displayName": "Alibaba Group Hldg Ltd"
-        },
-        {
-          "name": "NYSE:T",
-          "displayName": "At&t Inc"
-        },
-        {
-          "name": "NYSE:WMT",
-          "displayName": "Wal-mart Stores Inc"
-        },
-        {
-          "name": "NYSE:V",
-          "displayName": "Visa Inc"
+          "name": "COINBASE:BTCUSD",
+          "displayName": "Bitcoin"
         }
       ]
     }
   ],
-  "colorTheme": "light"
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "locale": "en"
 }
   </script>
 </div>
